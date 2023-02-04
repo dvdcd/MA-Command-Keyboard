@@ -4,3 +4,6 @@
 [submodule "marbastlib"]
 	path = marbastlib
 	url = https://github.com/ebastler/marbastlib
+[submodule "MX_Alps_Hybrid.pretty"]
+	path = MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
