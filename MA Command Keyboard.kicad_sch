@@ -696,6 +696,7 @@
     )
   )
 
+
   (junction (at 130.81 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 0dd6bc43-e635-4fe7-a383-d172c8541ccc)
   )
@@ -749,6 +750,7 @@
   )
 
   (no_connect (at 57.15 53.34) (uuid 7bc50aeb-1c7e-4205-9252-ae58e401d234))
+  (no_connect (at 123.19 44.45) (uuid c685dd5a-5bfd-4a9a-9b2a-8fab5000acd1))
 
   (wire (pts (xy 33.02 96.52) (xy 38.1 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -886,6 +888,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b8830e16-c8b0-44d9-9162-bb9c4bc98610)
   )
+  (wire (pts (xy 129.54 46.99) (xy 134.62 46.99))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bbf6ec05-65a2-4fed-ac3f-d3caca85da92)
+  )
   (wire (pts (xy 33.02 40.64) (xy 33.02 43.18))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid befc629c-613c-4dd4-9602-db738a122484)
@@ -966,6 +972,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "P+" (shape input) (at 50.8 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 63fc36a6-cd98-4451-877c-c73e1d067abf)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 56.0555 63.4206 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "D+" (shape input) (at 123.19 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 64a3f419-3544-44cf-ae81-f07d4681119c)
@@ -977,6 +990,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 725408f8-26f0-4418-8745-09af9353e8a6)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 128.4455 39.4494 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "P-" (shape input) (at 50.8 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7eef60ba-8350-4b6c-b19a-81e1e217c18e)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 56.0555 65.9606 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1820,226 +1840,226 @@
       (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/65be7fc0-cb5e-4e10-b157-85ef3796eb21"
-      (reference "MX1") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+      (reference "MX1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6de708e6-3337-4b51-95d2-b826f5297ab3"
-      (reference "MX2") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/eb9cdfaf-1ac6-47f2-bab3-b076f65c1474"
+      (reference "MX2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6d9e301b-b7c9-498f-95fd-b585d64aed6c"
-      (reference "MX3") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/44b416af-aaed-433c-9675-76afa76fb0dd"
+      (reference "MX3") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7ce886cb-5983-4ad2-9f5c-75279d29a20f"
-      (reference "MX4") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/837c5dfd-f080-4c90-a7af-5ec68a59b1a5"
+      (reference "MX4") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/98ebf533-ab8b-4dcc-ade0-f2be91cc33c4"
-      (reference "MX5") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7e206de1-73d4-4c51-bc32-1386f1751ecd"
+      (reference "MX5") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/e09ed994-8fc6-4929-8a56-fd516bd38e59"
-      (reference "MX6") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/3a005a70-ca2e-4515-9d0b-07664ef26c75"
+      (reference "MX6") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/0cadd2f1-5392-4b25-ab15-f42769697a2f"
-      (reference "MX7") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6ac80aff-4018-4033-884a-671bdc400555"
+      (reference "MX7") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/84ca19fb-0590-4e0f-8892-c7373a3ef526"
-      (reference "MX8") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/26b56c14-d7c3-41cc-b031-aa872db558f0"
+      (reference "MX8") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f8ab48d7-6984-4fd1-82ff-8bfb560ec464"
-      (reference "MX9") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6308dc89-c2da-44a2-888b-4687140e9b50"
+      (reference "MX9") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8994c39c-2708-402c-89a7-90059c51e896"
-      (reference "MX10") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/48bc3652-1f8b-4b43-9ae3-806ff4866a60"
+      (reference "MX10") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/3bca18ab-f721-418e-9915-8ab781fbfb4f"
-      (reference "MX11") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/941b2598-3e2e-4364-a40f-7dcba5a69ef8"
+      (reference "MX11") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f3917968-0ef5-47be-bd34-ebd01e62e3d0"
-      (reference "MX12") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/cca26863-5417-4925-9018-9f66541ab903"
+      (reference "MX12") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c9022adb-41cd-4b25-a993-f46f193a3940"
-      (reference "MX13") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/cea6d19f-6037-40f9-be3f-e0b64375fcb0"
+      (reference "MX13") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6bcdc0ba-f08b-482d-9d30-42ea5cab5fa3"
-      (reference "MX14") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7bfc35a1-a362-47b4-9ea3-1614eb42f7ed"
+      (reference "MX14") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/cde30ce9-23df-4f37-994c-2c4021a97c4b"
-      (reference "MX15") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c90d5bda-f5b4-4cbd-8ff1-b133a34968f2"
+      (reference "MX15") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6c4792bf-77ff-4a6b-a95c-99f34d7bfab2"
-      (reference "MX16") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/fbfe7a79-ccb8-426a-ab06-c6b44e85f7a7"
+      (reference "MX16") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f73e209b-8413-4a38-97de-565d4f46978a"
-      (reference "MX17") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2b261049-c60c-48db-b36a-fd0714b59049"
+      (reference "MX17") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2803f5f3-eba1-4204-a916-63cfaefa609b"
-      (reference "MX18") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1c683224-b502-4087-a3e3-5058fed7630f"
+      (reference "MX18") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f26b8136-2513-4420-9ba3-a9863c90226b"
-      (reference "MX19") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a58b45df-e94f-4505-bcf9-7379819052d7"
+      (reference "MX19") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/d429d759-9abc-46df-ac53-1e5b4d3ef41d"
-      (reference "MX20") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c4092545-700d-42ba-afa1-7ba5f0bff491"
+      (reference "MX20") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1619cc8d-b651-4c68-b0c4-88801194672d"
-      (reference "MX21") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f7a028f2-83b5-461c-a0ac-5be19284b40e"
+      (reference "MX21") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8e982ddc-efa8-48e1-bc1a-8289bcc7d809"
-      (reference "MX22") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6072f539-f13d-4e2a-924a-65df1c5beab0"
+      (reference "MX22") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ed63a727-ec27-44d6-87c8-4cc77b78cfc7"
-      (reference "MX23") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/74b54bd3-6b3b-4dec-9025-1d3564760c10"
+      (reference "MX23") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/82122068-157f-42d0-9e48-63a3451f677f"
-      (reference "MX24") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/9abdecb6-90f2-40c8-8876-68849a581d24"
+      (reference "MX24") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/0ff00375-6f5e-46aa-9acc-0ed3fdad7f51"
-      (reference "MX25") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/dca1cb42-f842-4c9b-b7e1-e4c5218d11ae"
+      (reference "MX25") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ec52a264-3667-42b7-975e-b7ffecf6c697"
-      (reference "MX26") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/cf060428-64d8-41a4-a306-5d7110ba5426"
+      (reference "MX26") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2ea4a876-6aa0-44fd-b312-a61b4efc4c40"
-      (reference "MX27") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c270ad3a-3913-41b0-bed8-34d5ed6a8487"
+      (reference "MX27") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/adc6d61e-5612-48de-bc2b-da0874d5c9c5"
-      (reference "MX28") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/b8911914-0f92-45a9-aa6e-069b2ccd4cc3"
+      (reference "MX28") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/9b423e7b-7707-4629-96c1-4aeb6048532c"
-      (reference "MX29") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/fe79a73f-1d5e-4be1-8460-089ad894926b"
+      (reference "MX29") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ce40b71c-8c46-4d4c-927d-5fb5661b9b84"
-      (reference "MX30") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/795a84f8-1c32-4301-82ff-e4a5debe4d12"
+      (reference "MX30") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6458b1fd-4a9f-4b97-a864-a81a84802c8c"
-      (reference "MX31") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c796ee20-3f5a-4f1e-9243-a5f0781890f7"
+      (reference "MX31") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ef1cce9d-528f-4d31-9c3f-96dc2e1b6a45"
-      (reference "MX32") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2363a018-c297-412b-8267-4e3a1a7d70d5"
+      (reference "MX32") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/3ec68b16-ebf2-4fb7-b962-93b82d356428"
-      (reference "MX33") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c5db46ac-fe9a-4ac7-8ca3-c26514d075e2"
+      (reference "MX33") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/d654cdd1-aea4-47f6-af62-e37732c09b36"
-      (reference "MX34") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a047a094-34bb-4d00-b822-9d824b3a492f"
+      (reference "MX34") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/50c0b923-6d8f-4d38-a125-0cddd7470eec"
-      (reference "MX35") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2ac7752c-bf92-4ad5-a8a8-ebc685c1ef8a"
+      (reference "MX35") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1d812c14-35f8-4f4c-9200-eea6c5b315ee"
-      (reference "MX36") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f2f8c440-31b7-4632-bccc-8b3e99e7dba0"
+      (reference "MX36") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/61e22003-4e71-47b2-b5fd-fcfae0ebb331"
-      (reference "MX37") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/28282d02-de32-4f35-99b2-bbce8f0da4ce"
+      (reference "MX37") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/90028bb5-dce6-4dd7-828f-e9c7e06f39de"
-      (reference "MX38") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ecf9bf55-86ec-4eec-a8bb-9aa8ac61a190"
+      (reference "MX38") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/49d4def1-0183-4feb-bc77-04d88ebfbba4"
-      (reference "MX39") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ea845bd8-1f4b-4147-b2c2-8d46f3b55ac5"
+      (reference "MX39") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/79e34268-d63b-424c-9f89-423d2b26c71a"
-      (reference "MX40") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1859a184-29a8-4f60-8030-23aa7790f310"
+      (reference "MX40") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/0967f25f-f929-40b9-a4d4-5a86cb30c8a0"
-      (reference "MX41") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/209bee4b-99a5-4859-b161-b1869288fc70"
+      (reference "MX41") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/74eca9f6-5b38-4ec7-abe7-caf64259dfcb"
-      (reference "MX42") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ee8a09e9-a070-4448-a294-02033e260d1f"
+      (reference "MX42") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2d461b98-2fb3-46ac-b980-30d72a79c637"
-      (reference "MX43") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7467b4c2-2e0c-4883-b01c-dfda4bf63470"
+      (reference "MX43") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ef48c746-fafd-4d72-af31-b45612ca0dec"
-      (reference "MX44") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8a8ec19b-f421-4e16-8a08-86b349cfca34"
+      (reference "MX44") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/2cdb0e59-c458-4e89-a4fe-17d9127bdcb6"
-      (reference "MX45") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/b42f17df-1280-4861-bee4-78523e632a01"
+      (reference "MX45") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/e7252644-b802-4c01-8a37-54c06916b38f"
-      (reference "MX46") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/db9c2e00-08d0-408e-82e7-03f1f9656750"
+      (reference "MX46") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/daa93ed0-856e-4a9c-865f-efb728a0ca7d"
-      (reference "MX47") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/fc756794-c3e1-4a5c-8ebe-daa2467846fb"
+      (reference "MX47") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/58ea856f-6f21-4a72-b105-afdc21084885"
-      (reference "MX48") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8e66e03a-9e4b-4557-8671-ef262b45cfb1"
+      (reference "MX48") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a4911e11-8a96-4295-aabc-d71f915170bf"
-      (reference "MX49") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c2206a60-aa3f-4d17-bf8c-dc9857037ff5"
+      (reference "MX49") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/296af17f-63e9-49fb-b181-70df1627ef4d"
-      (reference "MX50") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/cb136445-e314-4b40-a948-b2743bf3d04c"
+      (reference "MX50") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/37fb24ca-4fd8-402c-8d1c-1419afe7eb3d"
-      (reference "MX51") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/388aa801-07d2-4c87-a3ec-65cef9e9ce5c"
+      (reference "MX51") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/38e517db-cdf0-47af-a5f1-72b6de28ec50"
-      (reference "MX52") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8b1b3efa-243b-4563-963e-9e0caa473c29"
+      (reference "MX52") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a54bd9c8-3c00-421c-b60e-780c218b2fe3"
-      (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f83791b1-d450-492b-8bb1-4126a790aef7"
+      (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f2ae6f9f-6a67-4d7b-86ec-58c24164f6a4"
-      (reference "MX54") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6e6c0769-17d5-47f1-9587-2cf1f026893a"
+      (reference "MX54") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/4ed11739-b0a2-417b-9cf2-c0a22ef542e6"
-      (reference "MX55") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/73270d62-9f67-40b5-a91f-40a1a7bf9d8b"
+      (reference "MX55") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a3d8d917-d25f-491e-b3a1-b373b424ac23"
-      (reference "MX56") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c8a0b71c-e7e5-41ef-a741-abe98bf540a0"
+      (reference "MX56") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/c07d6a3d-2137-4706-8cda-e103badd0cb6"
-      (reference "MX57") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7d07a23b-295d-407d-96f6-bbf75ab6578c"
+      (reference "MX57") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/e2afec7b-37cd-4ac8-a674-f7349c728646"
-      (reference "MX58") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/afde143c-ea20-4aef-9232-c302d34d9a7f"
+      (reference "MX58") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ab89a209-16ca-4cd6-89d9-6ee11dec5f08"
-      (reference "MX59") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f2ea450a-423a-4c52-bd96-5f96729ac33e"
+      (reference "MX59") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7213c5b7-8dba-48b2-8e3b-714b2607c878"
-      (reference "MX60") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8cf3a3a6-749c-47d3-8e89-5306302c357a"
+      (reference "MX60") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/531befa5-2104-466a-8f52-b43525b40071"
-      (reference "MX61") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/b038672c-d594-4d23-bac1-64796ed9583f"
+      (reference "MX61") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/e77c4460-b1ed-4786-a7f7-1bb3a3e6c5e6"
-      (reference "MX62") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/02f39b89-6c87-412c-928b-071bd211170c"
+      (reference "MX62") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/8c81e804-4de1-4191-ad6c-73e4ede84042"
-      (reference "MX63") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/bf9322ac-57ef-48a7-b6e2-d59b64d8a2eb"
+      (reference "MX63") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/3315e62c-3cdf-4ca9-acb4-1bef7a4d5f1d"
-      (reference "MX64") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/f60737e9-5406-422a-ac48-b96ad1406402"
+      (reference "MX64") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/d8722081-9b17-42a7-9268-5dd29ac52a07"
-      (reference "MX65") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/7fa20f7c-93e4-4bad-a36c-204c6d047a08"
+      (reference "MX65") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a83b94ef-aaa2-4b54-9050-55df3f382e5b"
-      (reference "MX66") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1412bd71-d2af-4491-a99b-3944ab4c562e"
+      (reference "MX66") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a4c9c01f-a6bb-481c-9d8b-46798f16805d"
-      (reference "MX67") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1f1cf5f6-24b0-4a85-8133-453d5ae2275a"
+      (reference "MX67") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/d7c77c79-472a-4696-8773-62b8ab9d9691"
-      (reference "MX68") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/bc8a152a-243d-4d55-b678-a4d2df66b267"
+      (reference "MX68") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/b6ebb451-eaae-410b-a47b-866e79e33be8"
-      (reference "MX69") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/0b8be5a5-4c4e-4b05-a578-b333cc97c2b7"
+      (reference "MX69") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/1f48f2f0-9a40-4e3c-af56-ec13117616fa"
-      (reference "MX70") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/bea999f3-80e8-4d2f-bce0-761216d5ab44"
+      (reference "MX70") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/71d31978-8093-43b4-8bdd-c31da6d9e805"
-      (reference "MX71") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ba986a64-7818-4e83-993f-8c96942084a0"
+      (reference "MX71") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/5851e484-561d-4f8d-aef5-0be10e47add8"
-      (reference "MX72") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/ed0b8e8c-1968-4d66-81ed-c5c4ebc46339"
+      (reference "MX72") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/6b43fc96-b2ae-4268-b482-22b063665e71"
-      (reference "MX73") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/bddb9b2e-4927-4fd3-b1a2-0aaf920519f6"
+      (reference "MX73") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
-    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/a8fa4e0c-c23d-479a-8fa8-27609c997c46"
-      (reference "MX74") (unit 1) (value "MX-NoLED") (footprint "marbastlib-mx:SW_MX_HS_1u")
+    (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/4575033b-f452-409a-9b3e-dd8b11b9dc9a"
+      (reference "MX74") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap-Antishear-Dvdcd-Mod")
     )
     (path "/41e22c68-359f-4baf-8214-5bed9ccf97af"
       (reference "R1") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2054,7 +2074,7 @@
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/f0da2eb4-96fa-41f5-9b74-6f6df54c6771/016089f6-55bc-4bbe-9201-1bd7c6cded18"
-      (reference "S73") (unit 1) (value "MX_stab") (footprint "marbastlib-mx:STAB_MX_2u")
+      (reference "S71") (unit 1) (value "MX_stab") (footprint "marbastlib-mx:STAB_MX_2u")
     )
     (path "/a993cd5f-ff46-48f9-8deb-18cbd55eb671"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "random-keyboard-parts:SKQG-1155865")
