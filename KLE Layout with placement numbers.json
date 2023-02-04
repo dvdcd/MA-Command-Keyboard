@@ -1,0 +1,208 @@
+[
+  [
+    "1\n\n\n\n\n\n\n\n\nX1",
+    "2\n\n\n\n\n\n\n\n\nX2",
+    "3\n\n\n\n\n\n\n\n\nX3",
+    {
+      "x": 0.5
+    },
+    "4\n\n\n\n\n\n\n\n\nX4",
+    "5\n\n\n\n\n\n\n\n\nX5",
+    "6\n\n\n\n\n\n\n\n\nX6",
+    {
+      "x": 0.5
+    },
+    "7\n\n\n\n\n\n\n\n\nTools",
+    {
+      "x": 0.125
+    },
+    "8\n\n\n\n\n\n\n\n\nSetup",
+    {
+      "x": 0.125
+    },
+    "9\n\n\n\n\n\n\n\n\nBackup"
+  ],
+  [
+    {
+      "y": 0.5
+    },
+    "10\n\n\n\n\n\n\n\n\nFix",
+    "11\n\n\n\n\n\n\n\n\nSelect",
+    "12\n\n\n\n\n\n\n\n\nOff",
+    {
+      "x": 0.5
+    },
+    "13\n\n\n\n\n\n\n\n\nView",
+    "14\n\n\n\n\n\n\n\n\nEffect",
+    "15\n\n\n\n\n\n\n\n\nGoto",
+    {
+      "x": 0.5
+    },
+    "16\n\n\n\n\n\n\n\n\nDel",
+    {
+      "x": 0.25
+    },
+    "17\n\n\n\n\n\n\n\n\nBlind"
+  ],
+  [
+    "18\n\n\n\n\n\n\n\n\nTemp",
+    "19\n\n\n\n\n\n\n\n\nTop",
+    "20\n\n\n\n\n\n\n\n\nOn",
+    {
+      "x": 0.5
+    },
+    "21\n\n\n\n\n\n\n\n\nPage",
+    "22\n\n\n\n\n\n\n\n\nMacro",
+    "23\n\n\n\n\n\n\n\n\nPreset",
+    {
+      "x": 1.75
+    },
+    "24\n\n\n\n\n\n\n\n\nFreeze"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 7
+    },
+    "31\n\n\n\n\n\n\n\n\nCopy"
+  ],
+  [
+    {
+      "y": -0.5
+    },
+    "25\n\n\n\n\n\n\n\n\n<<<",
+    "26\n\n\n\n\n\n\n\n\nLearn",
+    "27\n\n\n\n\n\n\n\n\n>>>",
+    {
+      "x": 0.5
+    },
+    "28\n\n\n\n\n\n\n\n\nSequ",
+    "29\n\n\n\n\n\n\n\n\nCue",
+    "30\n\n\n\n\n\n\n\n\nExec",
+    {
+      "x": 1.75
+    },
+    "32\n\n\n\n\n\n\n\n\nPrvw"
+  ],
+  [
+    "33\n\n\n\n\n\n\n\n\nGo -",
+    "34\n\n\n\n\n\n\n\n\nPause",
+    "35\n\n\n\n\n\n\n\n\nGo +",
+    {
+      "x": 0.5
+    },
+    "36\n\n\n\n\n\n\n\n\nChannel",
+    "37\n\n\n\n\n\n\n\n\nFixture",
+    "38\n\n\n\n\n\n\n\n\nGroup",
+    {
+      "x": 0.5
+    },
+    "39\n\n\n\n\n\n\n\n\nMove",
+    {
+      "x": 0.25
+    },
+    "40\n\n\n\n\n\n\n\n\nAssign",
+    "41\n\n\n\n\n\n\n\n\nAlign"
+  ],
+  [
+    {
+      "y": 0.5
+    },
+    "42\n\n\n\n\n\n\n\n\nTime",
+    {
+      "x": 0.25
+    },
+    "43\n\n\n\n\n\n\n\n\nEsc",
+    {
+      "x": 0.25
+    },
+    "44\n\n\n\n\n\n\n\n\n7",
+    "45\n\n\n\n\n\n\n\n\n8",
+    "46\n\n\n\n\n\n\n\n\n9",
+    "47\n\n\n\n\n\n\n\n\n+",
+    {
+      "x": 0.5
+    },
+    "48\n\n\n\n\n\n\n\n\nFull",
+    {
+      "x": 0.25
+    },
+    "49\n\n\n\n\n\n\n\n\nHighlt",
+    "50\n\n\n\n\n\n\n\n\nSolo"
+  ],
+  [
+    {
+      "x": 2.5
+    },
+    "53\n\n\n\n\n\n\n\n\n4",
+    "54\n\n\n\n\n\n\n\n\n5",
+    "55\n\n\n\n\n\n\n\n\n6",
+    "56\n\n\n\n\n\n\n\n\nThru"
+  ],
+  [
+    {
+      "y": -0.75
+    },
+    "51\n\n\n\n\n\n\n\n\nEdit",
+    {
+      "x": 0.25
+    },
+    "52\n\n\n\n\n\n\n\n\nOops"
+  ],
+  [
+    {
+      "y": -0.25,
+      "x": 2.5
+    },
+    "59\n\n\n\n\n\n\n\n\n1",
+    "60\n\n\n\n\n\n\n\n\n2",
+    "61\n\n\n\n\n\n\n\n\n3",
+    "62\n\n\n\n\n\n\n\n\n-",
+    {
+      "x": 1.75
+    },
+    "64\n\n\n\n\n\n\n\n\nUp"
+  ],
+  [
+    {
+      "y": -0.5
+    },
+    "57\n\n\n\n\n\n\n\n\nUpdate",
+    {
+      "x": 0.25
+    },
+    "58\n\n\n\n\n\n\n\n\nClear"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 2.5
+    },
+    "68\n\n\n\n\n\n\n\n\n0",
+    "69\n\n\n\n\n\n\n\n\n.",
+    "70\n\n\n\n\n\n\n\n\nIF",
+    "72\n\n\n\n\n\n\n\n\nAT",
+    {
+      "x": 0.75
+    },
+    "63\n\n\n\n\n\n\n\n\nPrev",
+    "74\n\n\n\n\n\n\n\n\nSet",
+    "65\n\n\n\n\n\n\n\n\nNext"
+  ],
+  [
+    "66\n\n\n\n\n\n\n\n\nStore",
+    {
+      "x": 1.5
+    },
+    "67\n\n\n\n\n\n\n\n\nMA",
+    {
+      "x": 1,
+      "w": 2
+    },
+    "71\n\n\n\n\n\n\n\n\nPlease",
+    {
+      "x": 1.75
+    },
+    "73\n\n\n\n\n\n\n\n\nDown"
+  ]
+]
